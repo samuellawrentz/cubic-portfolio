@@ -1,21 +1,27 @@
 let prism = document.querySelector(".rec-prism");
+let background = document.querySelector("body");
 
-function showSignup(){
+function Skills(){
   prism.style.transform = "rotateY( -90deg)";
+  background.className= 'blue';
 }
-function showLogin(){
+function Home(){
   prism.style.transform = "none";
+  background.className='green';
 }
-function showForgotPassword(){
+function Experience(){
   prism.style.transform = "rotateY( -180deg)";
+  background.className='red';
 }
 
-function showSubscribe(){
+function Projects(){
   prism.style.transform = "rotateX( -90deg)";
+  background.className='yellow';
 }
 
-function showContactUs(){
+function Follow(){
   prism.style.transform = "rotateY( 90deg)";
+  background.className='pink';
 }
 
 function showThankYou(){
@@ -30,7 +36,7 @@ Highcharts.chart('skillsChart', {
   title: false,
   subtitle: false,
   xAxis: {
-    categories: ['HTML5', 'CSS3', 'Javascript', 'Photoshop', 'Highcharts', 'Python', 'Kendo UI'],
+    categories: ['HTML5', 'CSS3', 'Javascript', 'Photoshop', 'Highcharts', 'TypeScript', 'Kendo UI'],
     title: {
       text: null
     }
@@ -63,6 +69,6 @@ Highcharts.chart('skillsChart', {
          },
   series: [{
     name: 'Skill',
-    data: [70, 85, 90, 70, 60, 40, 73]
+    data: [70, 85, 90, 70, 60, 80, 73]
   }]
 });
