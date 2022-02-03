@@ -36,7 +36,7 @@ Highcharts.chart('skillsChart', {
   title: false,
   subtitle: false,
   xAxis: {
-    categories: ['HTML5', 'CSS3', 'Javascript', 'Photoshop', 'Highcharts', 'TypeScript', 'Kendo UI'],
+    categories: ['HTML5', 'CSS3', 'Javascript', 'React', 'Highcharts', 'TypeScript', 'Node'],
     title: {
       text: null
     }
@@ -69,6 +69,6 @@ Highcharts.chart('skillsChart', {
          },
   series: [{
     name: 'Skill',
-    data: [70, 85, 90, 70, 60, 80, 73]
+    data: [70, 85, 90, 95, 60, 80, 73]
   }]
 });
