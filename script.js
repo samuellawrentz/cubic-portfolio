@@ -36,7 +36,7 @@ Highcharts.chart('skillsChart', {
   title: false,
   subtitle: false,
   xAxis: {
-    categories: ['HTML5', 'CSS3', 'Javascript', 'React', 'Highcharts', 'TypeScript', 'Node'],
+    categories: ['HTML5', 'CSS3', 'Javascript', 'React', 'SCSS', 'TypeScript', 'Node'],
     title: {
       text: null
     }
